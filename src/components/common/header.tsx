@@ -20,7 +20,7 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: 'https://form.jotform.com/241626911891057',
+      href: '{{waitlistLink}}',
       title: '',
       openInNewTab: true
     }
@@ -35,26 +35,17 @@ export function Header({ className }: SidebarProps) {
     <Link href="/" className="pointer flex items-center">
       <img src="/logo.svg" className="mr-3" />
       <Typography className="!text-white !text-base font-medium ">
-        GoLaunch
+        {`{{siteName}}`}
       </Typography>
     </Link>
   )
 
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
-      {/* <Link
-        href="https://form.jotform.com/241626911891057"
-        target="_blank"
-      >
-        <Typography variant="p">Login</Typography>
-      </Link> */}
-      <Link
-        href="https://form.jotform.com/241626911891057"
-        target="_blank"
-      >
+      <Link href="{{waitlistLink}}" target="_blank">
         <Button size="tiny" color="ghost">
           <Typography variant="p" className="text-black">
-            Join the waitlist
+            {`{{ctaButtonText}}`}
           </Typography>
         </Button>
       </Link>

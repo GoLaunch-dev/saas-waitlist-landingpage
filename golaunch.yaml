@@ -13,18 +13,98 @@ fields:
   - label: Repo Name
     codeId: repoName
     description: Name of the new repository
-    codeDefined: "{{repoName}}"
+    codeDefined: '{{repoName}}'
     type: string
     defaultValue: My Repo
   - label: Site Name
     codeId: siteName
     description: Name of the website / company
-    codeDefined: "{{siteName}}"
+    codeDefined: '{{siteName}}'
     type: string
     defaultValue: My Repo
-  - label: Bot Name
-    codeId: botName
-    description: Name of your AI bot
-    codeDefined: "{{botName}}"
+  - label: Headline
+    codeId: tagLine
+    description: Tagline of the site. 30-80 characters. This will be shown on the frontpage
+    codeDefined: '{{tagLine}}'
     type: string
-    defaultValue: George
+    defaultValue: GoLaunch - Launch your SaaS. Fast.
+  - label: Headline Description
+    codeId: tagLine
+    description: Description to be shown under the site's headline
+    codeDefined: '{{tagLineDescription}}'
+    type: string
+    defaultValue: Explore & Launch customizable SaaS boilerplate templates for your next project.
+  - label: Secondary Headline
+    codeId: secondTagLine
+    description: A secondary headline displayed further down
+    codeDefined: '{{secondTagLine}}'
+    type: string
+    defaultValue: Launch quicker, validate faster
+  - label: Feature 1 Title
+    codeId: feature1Title
+    description: Title for the first feature
+    codeDefined: '{{feature1Title}}'
+    type: string
+    defaultValue: Pick your boilerplate
+  - label: Feature 1 Description
+    codeId: feature1Description
+    description: Description for the first feature
+    codeDefined: '{{feature1Description}}'
+    type: string
+    defaultValue: Choose from a variety of vetted boilerplates to build your code from
+  - label: Feature 2 Title
+    codeId: feature2Title
+    description: Title for the first feature
+    codeDefined: '{{feature2Title}}'
+    type: string
+    defaultValue: Customize your data
+  - label: Feature 2 Description
+    codeId: feature2Description
+    description: Description for the first feature
+    codeDefined: '{{feature2Description}}'
+    type: string
+    defaultValue: Use our UI to input things like the name of your SaaS, your logo, and more. It'll automatically update the boilerplate code with it
+  - label: Feature 3 Title
+    codeId: feature3Title
+    description: Title for the first feature
+    codeDefined: '{{feature3Title}}'
+    type: string
+    defaultValue: Deploy your SaaS
+  - label: Feature 3 Description
+    codeId: feature3Description
+    description: Description for the first feature
+    codeDefined: '{{feature3Description}}'
+    type: string
+    defaultValue: Automatically clone the customized repo, and instantly deploy it
+  - label: CTA Headline
+    codeId: ctaHeadline
+    description: Headline that displays above the final CTA Button
+    codeDefined: '{{ctaHeadline}}'
+    type: string
+    defaultValue: Get early access
+  - label: CTA Description
+    codeId: ctaDescription
+    description: Description that displays above the final CTA Button
+    codeDefined: '{{ctaButtonText}}'
+    type: string
+    defaultValue: Join the waitlist :)
+  - label: CTA Button Text
+    codeId: ctaButtonText
+    description: Text that displays on the CTA Button
+    codeDefined: '{{ctaButtonText}}'
+    type: string
+    defaultValue: Join the waitlist :)
+  - label: Waitlist Link
+    codeId: waitlistLink
+    description: The URL the user will be directed to clicking on the CTA Buttons
+    codeDefined: '{{waitlistLink}}'
+    type: string
+    defaultValue: https://google.com
+  - label: Support Email
+    codeId: supportEmail
+    description: The email shown on the ToS and privacy policy page
+    codeDefined: '{{waitlistLink}}'
+    type: string
+    defaultValue: mysupportemail@gmail.com
+    required: true
+    aiGen: false

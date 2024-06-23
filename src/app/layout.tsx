@@ -9,17 +9,15 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GoLaunch - Launch your SaaS. Fast.',
-  description:
-    'Explore & Launch customizable SaaS boilerplate templates for your next project.',
+  title: '{{tagLine}}',
+  description: '{{tagLineDescription}}',
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GoLaunch - Launch your SaaS. Fast.',
-    description:
-      'Explore & Launch customizable SaaS boilerplate templates for your next project.',
+    title: '{{tagLine}}',
+    description: '{{tagLineDescription}}',
     images: ['https://i.imgur.com/ZpMv5eH.png']
   }
 }

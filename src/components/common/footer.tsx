@@ -13,18 +13,18 @@ export function Footer() {
           >
             <img src="/logo.svg" className="mr-3" />
             <Typography className="!text-white !text-base font-medium ">
-              GoLaunch
+              {`{{siteName}}`}
             </Typography>
           </Link>
         </div>
         <div className="flex max-w-fit items-center gap-x-4">
           <Link
-            href="https://form.jotform.com/241626911891057"
+            href="{{waitlistLink}}"
             target="_blank"
             className="pointer block w-fit flex-1"
           >
             <Typography variant="p" className="w-max">
-              Join the waitlist
+              {`{{ctaButtonText}}`}
             </Typography>
           </Link>
           <Link

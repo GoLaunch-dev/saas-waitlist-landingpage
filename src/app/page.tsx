@@ -12,20 +12,14 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Deploy your SaaS without the overhead.
+          {`{{tagLine}}`}
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Code your next SaaS without worrying about best
-          practices, overhead, or boilerplate code. Choose a
-          boilerplate, customize it, and deploy it in
-          minutes.
+          {`{{tagLineDescription}}`}
         </Typography>
-        <Link
-          href="https://form.jotform.com/241626911891057"
-          target="_blank"
-        >
+        <Link href="{{waitlistLink}}" target="_blank">
           <Button size="tiny" variant="ghost">
-            {`Join the waitlist`}
+            {`{{ctaButtonText}}`}
           </Button>
         </Link>
         {/* <Image
@@ -38,23 +32,23 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Launch quicker, validate faster
+            {`{{secondTagLine}}`}
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Tally1 size={24} />}
-              headline="Pick your boilerplate"
-              description="Choose from a variety of vetted boilerplates to build your code from"
+              headline="{{feature1Title}}"
+              description="{{feature1Description}}"
             />
             <Feature
               icon={<Tally2 size={24} />}
-              headline="Customize your data"
-              description="Use our UI to input things like the name of your SaaS, your logo, and more. It'll automatically update the boilerplate code with it"
+              headline="{{feature2Title}}"
+              description="{{feature2Description}}"
             />
             <Feature
               icon={<Tally3 size={24} />}
-              headline="Deploy your SaaS"
-              description="Automatically clone the customized repo, and instantly deploy it"
+              headline="{{feature3Title}}"
+              description="{{feature3Description}}"
             />
           </div>
         </div>
@@ -70,17 +64,12 @@ export default function Home() {
         </div> */}
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Get early access
+            {`{{ctaTitle}}`}
           </Typography>
-          <Typography>
-            {`We're launching soon! Sign up to be one of our first users.`}
-          </Typography>
-          <Link
-            href="https://form.jotform.com/241626911891057"
-            target="_blank"
-          >
+          <Typography>{`{{ctaDescription}}`}</Typography>
+          <Link href="{{waitlistLink}}" target="_blank">
             <Button size="tiny" variant="ghost">
-              {`Join the waitlist`}
+              {`{{ctaButtonText}}`}
             </Button>
           </Link>
         </div>
