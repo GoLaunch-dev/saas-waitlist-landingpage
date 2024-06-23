@@ -1,7 +1,7 @@
 metadata:
-  template_name: Test Repo
-  template_description: A test repo for testing the parser
-  template_github_owner: https://github.com/AtotheY/
+  template_name: Waitlist Landing Page
+  template_description: A simple waitlist landing page to collect emails while you build your product.
+  template_github_owner: https://github.com/GoLaunch-dev/
   tags:
     - nextjs
     - react
