@@ -1,0 +1,30 @@
+metadata:
+  template_name: Test Repo
+  template_description: A test repo for testing the parser
+  template_github_owner: https://github.com/AtotheY/
+  tags:
+    - nextjs
+    - react
+    - shadcn
+    - landing page
+    - waitlist
+
+fields:
+  - label: Repo Name
+    codeId: repoName
+    description: Name of the new repository
+    codeDefined: "{{repoName}}"
+    type: string
+    defaultValue: My Repo
+  - label: Site Name
+    codeId: siteName
+    description: Name of the website / company
+    codeDefined: "{{siteName}}"
+    type: string
+    defaultValue: My Repo
+  - label: Bot Name
+    codeId: botName
+    description: Name of your AI bot
+    codeDefined: "{{botName}}"
+    type: string
+    defaultValue: George
