@@ -29,7 +29,7 @@ fields:
     type: string
     defaultValue: GoLaunch - Launch your SaaS. Fast.
   - label: Headline Description
-    codeId: tagLine
+    codeId: tagLineDescription
     description: Description to be shown under the site's headline
     codeDefined: '{{tagLineDescription}}'
     type: string

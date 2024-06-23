@@ -64,7 +64,7 @@ export default function Home() {
         </div> */}
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            {`{{ctaTitle}}`}
+            {`{{ctaHeadline}}`}
           </Typography>
           <Typography>{`{{ctaDescription}}`}</Typography>
           <Link href="{{waitlistLink}}" target="_blank">
