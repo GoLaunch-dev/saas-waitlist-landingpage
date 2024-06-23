@@ -85,9 +85,9 @@ fields:
   - label: CTA Description
     codeId: ctaDescription
     description: Description that displays above the final CTA Button
-    codeDefined: '{{ctaButtonText}}'
+    codeDefined: '{{ctaDescription}}'
     type: string
-    defaultValue: Join the waitlist :)
+    defaultValue: We're launching soon! Sign up to be one of our first users.
   - label: CTA Button Text
     codeId: ctaButtonText
     description: Text that displays on the CTA Button
