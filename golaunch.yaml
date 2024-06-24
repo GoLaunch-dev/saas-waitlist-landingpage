@@ -108,3 +108,15 @@ fields:
     defaultValue: mysupportemail@gmail.com
     required: true
     aiGen: false
+  - label: Logo
+    description: The logo of your site (svg file)
+    type: svg
+    paths: ./public/logo.svg
+    required: false
+    aiGen: true
+  - label: Hero Image
+    description: The hero image of your site
+    type: png
+    paths: ./public/hero1.svg
+    required: false
+    aiGen: true
