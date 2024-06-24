@@ -15,7 +15,7 @@ fields:
     description: Name of the new repository
     codeDefined: '{{repoName}}'
     type: string
-    defaultValue: My Repo
+    defaultValue: my-repo
   - label: Site Name
     codeId: siteName
     description: Name of the website / company
