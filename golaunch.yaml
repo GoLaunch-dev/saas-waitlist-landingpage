@@ -100,6 +100,7 @@ fields:
     codeDefined: '{{waitlistLink}}'
     type: string
     defaultValue: https://google.com
+    aiGenable: false
   - label: Support Email
     codeId: supportEmail
     description: The email shown on the ToS and privacy policy page
@@ -107,14 +108,15 @@ fields:
     type: string
     defaultValue: mysupportemail@gmail.com
     required: true
-    aiGen: false
+    aiGenable: false
   - label: Logo
     codeId: logo
-    description: The logo of your site (svg file)
-    type: svg
-    paths: ./public/logo.svg
+    description: The logo for the site
+    type: png
+    paths:
+      - public/logo.png
     required: false
-    aiGen: true
+    aiGenable: true
   - label: Hero Image
     codeId: heroImage
     description: The hero image of your site
@@ -123,7 +125,7 @@ fields:
       - public/hero1.png
       - public/hero2.png
     required: false
-    aiGen: true
+    aiGenable: true
 
 ignore:
   - golaunch.yaml
