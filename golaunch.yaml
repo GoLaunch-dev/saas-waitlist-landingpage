@@ -119,7 +119,7 @@ fields:
     codeId: heroImage
     description: The hero image of your site
     type: png
-    paths: ./public/hero1.svg
+    paths: ./public/hero1.png
     required: false
     aiGen: true
 
