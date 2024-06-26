@@ -109,14 +109,19 @@ fields:
     required: true
     aiGen: false
   - label: Logo
+    codeId: logo
     description: The logo of your site (svg file)
     type: svg
     paths: ./public/logo.svg
     required: false
     aiGen: true
   - label: Hero Image
+    codeId: heroImage
     description: The hero image of your site
     type: png
     paths: ./public/hero1.svg
     required: false
     aiGen: true
+
+ignore:
+  - golaunch.yaml
