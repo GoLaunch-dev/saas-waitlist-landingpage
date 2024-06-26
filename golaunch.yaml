@@ -120,8 +120,8 @@ fields:
     description: The hero image of your site
     type: png
     paths:
-      - ./public/hero1.png
-      - ./public/hero2.png
+      - public/hero1.png
+      - public/hero2.png
     required: false
     aiGen: true
 
