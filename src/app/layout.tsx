@@ -9,15 +9,15 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '{{tagLine}}',
-  description: '{{tagLineDescription}}',
+  title: `{{tagLine}}`,
+  description: `{{tagLineDescription}}`,
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
-    title: '{{tagLine}}',
-    description: '{{tagLineDescription}}',
+    title: `{{tagLine}}`,
+    description: `{{tagLineDescription}}`,
     images: ['https://i.imgur.com/ZpMv5eH.png']
   }
 }
