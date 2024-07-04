@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import Typography from '@components/ui/typography'
+import Image from 'next/image'
 
 export function Footer() {
   return (
@@ -11,7 +12,13 @@ export function Footer() {
             href="/"
             className="pointer flex items-center"
           >
-            <img src="/logo.svg" className="mr-3" />
+            <Image
+              alt="logo"
+              src="/logo.png"
+              className="mr-3"
+              width={20}
+              height={24}
+            />
             <Typography className="!text-white !text-base font-medium ">
               {`{{siteName}}`}
             </Typography>

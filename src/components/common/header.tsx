@@ -12,6 +12,7 @@ import {
   DrawerTrigger
 } from '@/components/ui/drawer'
 import { MenuIcon, X } from 'lucide-react'
+import Image from 'next/image'
 
 interface SidebarProps
   extends React.HTMLAttributes<HTMLDivElement> {}
@@ -33,7 +34,13 @@ export function Header({ className }: SidebarProps) {
 
   const getLogo = () => (
     <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-3" />
+      <Image
+        alt="logo"
+        src="/logo.png"
+        className="mr-3"
+        width={20}
+        height={24}
+      />
       <Typography className="!text-white !text-base font-medium ">
         {`{{siteName}}`}
       </Typography>
