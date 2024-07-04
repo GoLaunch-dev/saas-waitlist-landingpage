@@ -139,7 +139,6 @@ fields:
     type: png
     paths:
       - public/hero1.png
-      - public/hero2.png
     required: false
     aiGenable: false
 

@@ -3,6 +3,7 @@ import Typography from '@/components/ui/typography'
 import Feature from './feature'
 import { Tally1, Tally2, Tally3 } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,12 +23,13 @@ export default function Home() {
             {`{{ctaButtonText}}`}
           </Button>
         </Link>
-        {/* <Image
+        <Image
           width={1024}
           height={632}
-          alt="GoLaunch.dev hero image"
+          alt="Hero image"
           src="/hero1.png"
-        /> */}
+          className="rounded-lg"
+        />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
